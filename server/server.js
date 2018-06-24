@@ -17,6 +17,14 @@ module.exports.io = socketIO(server);
 
 require('./sockets/socket');
 
+// esto es una prueba 
+// app.get('/usuario', (req, res) => {
+
+//     res.json({
+//         message: 'hola'
+//     });
+// });
+
 server.listen(port, (err) => {
 
     if (err) throw new Error(err);
